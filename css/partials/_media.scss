@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1024px) {
+    .grilla{
+        grid-template-columns: 1fr; 
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: "header"                     
+                             "main"
+                             "sidebar"
+                             "footer"; 
+    }
+    
+    .section1 {
+        width: fit-content;
+    }
+
+    .sidebar {
+        grid-area: sidebar;
+        display: grid;
+        justify-content: center;
+        width: 960px;
+        margin-right: 1rem;
+    }
+
+    .image {
+        display:inline;
+        width: 30%;
+        margin: auto;
+    }
+
+    .sidebar p {
+        display: grid;
+        flex-direction: row;
+        align-items: left;
+    }
+
+    .image {
+        display: grid;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .section1 {
+        width: 750px;
+    }
+
+    .sidebar {
+        width: 750px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .section1 {
+        width: 460px;
+        }
+    
+    .sidebar {
+        width: 460px;
+    }
+}

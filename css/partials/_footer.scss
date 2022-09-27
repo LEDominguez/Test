@@ -1,0 +1,23 @@
+.footer {
+    grid-area: footer;
+    background-color: rgb(193, 54, 211);
+    padding: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,117,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.redes a i {
+    font-size: 22px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.df-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.redes a i:hover{
+    color: blue
+}

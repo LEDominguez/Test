@@ -1,0 +1,27 @@
+.sidebar {
+    grid-area: sidebar;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+    width: 250px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: justify;
+    background-image: linear-gradient(to right, rgb(226, 147, 147) #00bcd4);
+}
+
+.sidebar img {
+    display: block;
+    width: 60%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.sidebar p {
+    margin: 1rem;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: justify;
+}

@@ -1,0 +1,37 @@
+.header {
+    grid-area: header;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    background-color: rgb(193, 54, 211);
+    color: #fff;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,117,1) 35%, rgba(0,212,255,1) 100%);;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border: 1px;
+}
+
+header img {
+    border-radius: 8px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.df-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    color: #fff;
+    margin-top: 9px;
+}
+
+.df-ul li{
+    margin: 10px;
+}
