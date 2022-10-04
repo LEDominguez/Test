@@ -18,6 +18,18 @@
     justify-content: space-around;
 }
 
-.redes a i:hover{
-    color: blue
+.fa-facebook-square {
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.fa-twitter-square {
+    @extend .fa-facebook-square;
+}
+
+.fa-instagram {
+    &:hover {
+        background-color: rgb(206, 12, 174);
+    }
 }

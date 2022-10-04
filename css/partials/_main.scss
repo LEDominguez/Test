@@ -53,5 +53,23 @@
 }
 
 .main form {
-    min-height: 800px;
+    min-height: 500px;
+}
+
+.obras {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+            150px,
+            1fr,
+        )
+    );
+    gap: 16px;
+}
+
+.poster {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
 }

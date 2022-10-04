@@ -32,6 +32,14 @@ header img {
     margin-top: 9px;
 }
 
-.df-ul li{
-    margin: 10px;
+@mixin bordes($margen, $pad, $radio) {
+    margin: $margen;
+    padding: $pad;
+    border-radius: $radio;
 }
+
+.df-ul li{
+    @include bordes(10px, 5px, 3px);
+    @extend .fa-instagram;
+}
+

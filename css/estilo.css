@@ -108,6 +108,8 @@ header img {
 
 .df-ul li {
   margin: 10px;
+  padding: 5px;
+  border-radius: 3px;
 }
 
 body {
@@ -181,7 +183,19 @@ a, a:active {
 }
 
 .main form {
-  min-height: 800px;
+  min-height: 500px;
+}
+
+.obras {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+}
+
+.poster {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 
 .sidebar {
@@ -232,6 +246,10 @@ a, a:active {
   justify-content: space-around;
 }
 
-.redes a i:hover {
-  color: blue;
+.fa-facebook-square:hover, .fa-twitter-square:hover {
+  background-color: blue;
+}
+
+.fa-instagram:hover, .df-ul li:hover {
+  background-color: rgb(206, 12, 174);
 }/*# sourceMappingURL=estilo.css.map */
